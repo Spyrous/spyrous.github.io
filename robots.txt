@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://spyrous.github.io/sitemap.xml 
+Sitemap: http://Spyrous.github.io/sitemap.xml 

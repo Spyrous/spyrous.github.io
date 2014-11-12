@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://spyrous.github.io/blog/2014/08/31/hello-world/</loc>
+    <loc>http://Spyrous.github.io/blog/2014/08/31/hello-world/</loc>
     <lastmod>2014-08-31T19:12:56+03:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://spyrous.github.io/blog/archives/</loc>
-    <lastmod>2014-11-12T23:23:23+02:00</lastmod>
+    <loc>http://Spyrous.github.io/blog/about/</loc>
+    <lastmod>2014-11-12T23:45:33+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://spyrous.github.io/</loc>
-    <lastmod>2014-11-12T23:23:23+02:00</lastmod>
+    <loc>http://Spyrous.github.io/blog/archives/</loc>
+    <lastmod>2014-11-12T23:45:33+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://Spyrous.github.io/</loc>
+    <lastmod>2014-11-12T23:45:33+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

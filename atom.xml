@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://spyrous.github.io/atom.xml" rel="self"/>
-  <link href="http://spyrous.github.io/"/>
-  <updated>2014-11-12T23:23:23+02:00</updated>
-  <id>http://spyrous.github.io/</id>
+  <title><![CDATA[Spyrous Blog]]></title>
+  <link href="http://Spyrous.github.io/atom.xml" rel="self"/>
+  <link href="http://Spyrous.github.io/"/>
+  <updated>2014-11-12T23:45:33+02:00</updated>
+  <id>http://Spyrous.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Spyros Chiotakis]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Famous Code Formatting Techniques]]></title>
-    <link href="http://spyrous.github.io/blog/2014/08/31/hello-world/"/>
+    <link href="http://Spyrous.github.io/blog/2014/08/31/hello-world/"/>
     <updated>2014-08-31T19:12:56+03:00</updated>
-    <id>http://spyrous.github.io/blog/2014/08/31/hello-world</id>
+    <id>http://Spyrous.github.io/blog/2014/08/31/hello-world</id>
     <content type="html"><![CDATA[<p>This topic bothered me a lot at the beginning of my programming journey. I wanted to find ‘the‘ best code formatting technique and stick with it so my code would be easy to read at any time. After a year or so it is obvious for me that there is no technique that you can say it is the best. It is more of a personal taste.</p>
 
 <p>So should we invest time to find an acceptable style ? The answer is yes.</p>
