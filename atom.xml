@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Spyrous Blog]]></title>
-  <link href="http://Spyrous.github.io/atom.xml" rel="self"/>
-  <link href="http://Spyrous.github.io/"/>
-  <updated>2015-12-07T17:57:07+02:00</updated>
-  <id>http://Spyrous.github.io/</id>
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://spyrous.github.io/atom.xml" rel="self"/>
+  <link href="http://spyrous.github.io/"/>
+  <updated>2015-12-07T18:06:41+02:00</updated>
+  <id>http://spyrous.github.io/</id>
   <author>
-    <name><![CDATA[Spyros Chiotakis]]></name>
+    <name><![CDATA[Your Name]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Xilinx ISE 'Hello World' Tutorial]]></title>
-    <link href="http://Spyrous.github.io/blog/2014/11/14/xilinx-ise-hello-world-tutorial/"/>
+    <link href="http://spyrous.github.io/blog/2014/11/14/xilinx-ise-hello-world-tutorial/"/>
     <updated>2014-11-14T18:52:22+02:00</updated>
-    <id>http://Spyrous.github.io/blog/2014/11/14/xilinx-ise-hello-world-tutorial</id>
+    <id>http://spyrous.github.io/blog/2014/11/14/xilinx-ise-hello-world-tutorial</id>
     <content type="html"><![CDATA[<p>In this tutorial I will show a very simple example of creating an <strong>AND</strong> digital gate
 with the help of an HDL (Hardware Description Language) <strong>VHDL</strong>. I will run the design on an FPGA board (ZyBo) and then I will also simulate it using ISE 14.7. If you don&rsquo;t have a board it&rsquo;s fine but you can only do the simulation part of this tutorial.<br /><br /></p>
 
@@ -36,49 +36,49 @@ After you install ISE run the <strong>source</strong> command on your terminal a
 <p><br /><br /><br />
 After a couple of seconds ISE application will be loaded and you are presented with a screen similar to the one below.</p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/ISE_Project_1.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/ISE_Project_1.png"><br /></p>
 
 <p>Click <strong>File</strong> and then <strong>New Project</strong></p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/Tooltip_190.png"><br />
+<p><img class="center" src="http://spyrous.github.io/images/Tooltip_190.png"><br />
 Give a <strong>name</strong> to your project</p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/New%20Project%20Wizard_189.png"><br />
+<p><img class="center" src="http://spyrous.github.io/images/New%20Project%20Wizard_189.png"><br />
 Here you are asked to fill in the specifications of your board (<em>Family</em>, <em>Device</em>, <em>Package</em>, <em>Speed</em>).
 The attributes below <strong>Top-level Source Type</strong> are just a matter of preference.<br />
 <em>For example mine is a ZyBo (Zynq Board) so I specify it&rsquo;s attributes accordingly</em></p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/New%20Project%20Wizard_191.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/New%20Project%20Wizard_191.png"><br /></p>
 
 <p>Last screen is for verification purposes. Check your setup and click <strong>Finish</strong>.</p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/New%20Project%20Wizard_192.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/New%20Project%20Wizard_192.png"><br /></p>
 
 <p>After that you will be presented with a screen similar to the one below.</p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/ISE_Project.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/ISE_Project.png"><br /></p>
 
 <p>To continue right-click the name of your board and then click New Source.</p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/Selection_193.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/Selection_193.png"><br /></p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/Tooltip_209.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/Tooltip_209.png"><br /></p>
 
 <p>We want to create a VHDL file to program the FPGA so we click VHDL Module
 and give a name to it.</p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/New%20Source%20Wizard_195.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/New%20Source%20Wizard_195.png"><br /></p>
 
 <p>Then we are asked to fill in the ports of the entity we are gonna create.
 In this example we will create an two-input AND gate.
 So the inputs are a, b and the output is c.<br />
 <em>(Don&rsquo;t forget to change the <strong>Direction</strong> column for the output)</em></p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/New%20Source%20Wizard_196.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/New%20Source%20Wizard_196.png"><br /></p>
 
 <p>Again a verification screen to check that your settings are correct and proceed.</p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/New%20Source%20Wizard_197.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/New%20Source%20Wizard_197.png"><br /></p>
 
 <p>After you click finish you will be presented with the code similar to the one
 below. <br /><em>(NOTE: I removed the comments that are added by Xilinx)</em></p>
@@ -139,26 +139,26 @@ Those who don&rsquo;t you unfortunately have to skip this part and go to Simulat
 <center><h2> <u>Board Implementation</u></h2></center>
 
 
-<p><img class="center" src="http://Spyrous.github.io/images/New%20Source%20Wizard_198.png"><br />
-<img class="center" src="http://Spyrous.github.io/images/New%20Source%20Wizard_199.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/New%20Source%20Wizard_198.png"><br />
+<img class="center" src="http://spyrous.github.io/images/New%20Source%20Wizard_199.png"><br /></p>
 
-<p><img class="center" src="http://Spyrous.github.io/images/Selection_200.png"><br />
-<img class="center" src="http://Spyrous.github.io/images/Warning_201.png"><br />
-<img class="center" src="http://Spyrous.github.io/images/Selection_202.png"><br />
-<img class="center" src="http://Spyrous.github.io/images/Tooltip_203.png"><br />
-<img class="center" src="http://Spyrous.github.io/images/Auto%20Assign%20Configuration%20Files%20Query%20Dialog_204.png"><br />
-<img class="center" src="http://Spyrous.github.io/images/Assign%20New%20Configuration%20File_205.png"><br />
-<img class="center" src="http://Spyrous.github.io/images/Assign%20New%20Configuration%20File_206.png"><br />
-<img class="center" src="http://Spyrous.github.io/images/Device%20Programming%20Properties%20-%20Device%201%20Programming%20Properties_207.png"><br />
-<img class="center" src="http://Spyrous.github.io/images/Selection_208.png"><br /></p>
+<p><img class="center" src="http://spyrous.github.io/images/Selection_200.png"><br />
+<img class="center" src="http://spyrous.github.io/images/Warning_201.png"><br />
+<img class="center" src="http://spyrous.github.io/images/Selection_202.png"><br />
+<img class="center" src="http://spyrous.github.io/images/Tooltip_203.png"><br />
+<img class="center" src="http://spyrous.github.io/images/Auto%20Assign%20Configuration%20Files%20Query%20Dialog_204.png"><br />
+<img class="center" src="http://spyrous.github.io/images/Assign%20New%20Configuration%20File_205.png"><br />
+<img class="center" src="http://spyrous.github.io/images/Assign%20New%20Configuration%20File_206.png"><br />
+<img class="center" src="http://spyrous.github.io/images/Device%20Programming%20Properties%20-%20Device%201%20Programming%20Properties_207.png"><br />
+<img class="center" src="http://spyrous.github.io/images/Selection_208.png"><br /></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The Famous Code Formatting Techniques]]></title>
-    <link href="http://Spyrous.github.io/blog/2014/08/31/hello-world/"/>
+    <link href="http://spyrous.github.io/blog/2014/08/31/hello-world/"/>
     <updated>2014-08-31T19:12:56+03:00</updated>
-    <id>http://Spyrous.github.io/blog/2014/08/31/hello-world</id>
+    <id>http://spyrous.github.io/blog/2014/08/31/hello-world</id>
     <content type="html"><![CDATA[<p>This topic bothered me a lot at the beginning of my programming journey. I wanted to find ‘the‘ best code formatting technique and stick with it so my code would be easy to read at any time. After a year or so it is obvious to me that there is no such technique. It&rsquo;s more of a personal taste.</p>
 
 <p>So should we invest time to find an acceptable style ? The answer is yes.</p>
