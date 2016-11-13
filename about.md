@@ -3,28 +3,21 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hello everyone!<br />
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+  My name is **Spyros Chiotakis**, and like you, I’m just a regular person trying to find my path through life. I am currently a student at the University of York and on course of getting my master’s degree in Digital Systems Engineering*(est. September 2017)*.<br />
 
-There are currently two themes built on Poole:
+This blogs purpose is to educate on topics such as, digital design, computer architecture, HDL languages(VHDL/Verilog), and if my time allows it I will try to explain a few things about OS and compilers in correlation with computer architecture. My hopes are that through the projects and tutorials presented here the functions behind the so-called “black box”, will be (at a satisfactory level) demystified.<br />
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Last but not least here's my email address **spyros.chiotakis@gmail.com** if you want to ask me anything personally or in case you spot any broken links/typo you are more than welcome to inform me.<br />
 
-## Setup
+I hope that my posts will be of some help to you. <br />
 
-Some fun facts about the setup of this project include:
+## Social Media
+You can find me on the following social websites: <br />
+* [Linkedin](https://gr.linkedin.com/in/spyros-chiotakis-786b5ab5) <br />
+* [Google+](https://plus.google.com/u/0/+SpyrosChiotakis)
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+## Interests
+RTL Design, Processors, ASIC, FPGA, VLSI, Embedded Systems, Computer Architecture, Microprocessors, Hardware Verification
