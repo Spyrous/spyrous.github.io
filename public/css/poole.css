@@ -79,6 +79,35 @@ a:focus {
   text-decoration: underline;
 }
 
+/* Circle image profile */
+#centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.one {
+  background-image: url('/images/Beauty1.jpg');
+}
+
+.two {
+  background-image: url('http://placehold.it/150x150');
+}
+
+.three {
+  background-image: url('http://placehold.it/350x750');
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
