@@ -18,8 +18,8 @@ author:
   url:               https://twitter.com/mdo
   email:             spyros.chiotakis@gmail.com
 
-# Custom vars
-version:             1.1.0
+# For syntax highlighting
+highlighter: pygments
 
 # Gems
 gems: [jekyll-paginate]
