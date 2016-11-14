@@ -18,7 +18,8 @@ author:
   url:               https://twitter.com/mdo
   email:             spyros.chiotakis@gmail.com
 
-highlighter: pygments
+highlighter: rouge
+markdown:    kramdown
 
 # Gems
 gems: [jekyll-paginate]

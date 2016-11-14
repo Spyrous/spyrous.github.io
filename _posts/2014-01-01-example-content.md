@@ -34,51 +34,39 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 ### Code
 
 
-{% highlight vhdl %}
---------------------------------------
--- OR gate (ESD book figure 2.3)
---
--- two descriptions provided
---------------------------------------
 
-library ieee;
-use ieee.std_logic_1164.all;
 
---------------------------------------
-
-entity OR_ent is
-port(	x: in std_logic;
-	y: in std_logic;
-	F: out std_logic
-);
-end OR_ent;  
-
----------------------------------------
-
-architecture OR_arch of OR_ent is
-begin
-    
-    process(x, y)
-    begin
-        -- compare to truth table
-        if ((x='0') and (y='0')) then
-	    F <= '0';
-	else
-	    F <= '1';
-	end if;
-    end process;
-
-end OR_arch;
-
-architecture OR_beh of OR_ent is 
-begin 
-
-    F <= x or y; 
-
-end OR_beh;
-
----------------------------------------
-
+{% highlight verilog %}
+//-----------------------------------------------------
+  2 // Design Name : dff_sync_reset
+  3 // File Name   : dff_sync_reset.v
+  4 // Function    : D flip-flop sync reset
+  5 // Coder       : Deepak Kumar Tala
+  6 //-----------------------------------------------------
+  7 module dff_sync_reset (
+  8 data   , // Data Input
+  9 clk    , // Clock Input
+ 10 reset  , // Reset input
+ 11 q        // Q output
+ 12 );
+ 13 //-----------Input Ports---------------
+ 14 input data, clk, reset ; 
+ 15 
+ 16 //-----------Output Ports---------------
+ 17 output q;
+ 18 
+ 19 //------------Internal Variables--------
+ 20 reg q;
+ 21 
+ 22 //-------------Code Starts Here---------
+ 23 always @ ( posedge clk)
+ 24 if (~reset) begin
+ 25   q <= 1'b0;
+ 26 end  else begin
+ 27   q <= data;
+ 28 end
+ 29 
+ 30 endmodule //End Of Module dff_sync_reset
 {% endhighlight %}
 
 
