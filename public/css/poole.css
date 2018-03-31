@@ -88,8 +88,8 @@ a:focus {
 
 .user {
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -97,7 +97,7 @@ a:focus {
 }
 
 .one {
-  background-image: url('/images/Beauty1.jpg');
+  background-image: url('/images/profile.jpg');
 }
 
 .two {

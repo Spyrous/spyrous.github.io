@@ -1,11 +1,18 @@
 ---
 layout: post
-title: The Journey From Virtual to Physical (Memory)
+title: Designing an FPGA component with AXI interface
+comments: true
+categories: [Personal, Finance]
+
 ---
 
-{% comment %}
+
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+
+```
+Some random code
+```
 
 ### Built on Poole
 
@@ -39,4 +46,3 @@ Lanyon is developed on and hosted with GitHub. Head to the <a href="https://gith
 
 Thanks!
 
-{% endcomment %}
