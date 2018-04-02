@@ -13,14 +13,24 @@ tags: jekyll liquid blogging
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }} 
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
+    <span class="post-date"><i><font color="#aaaaaa">Publication Date: </font></i>{{ post.date | date_to_string }}</span>
+    <i><font color="#aaaaaa">Tags:</font></i> {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %} <br>
+------------------------------------------------------------------------------------
     {{ post.content }}
+
   </div>
   {% endfor %}
 </div>

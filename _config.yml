@@ -9,7 +9,7 @@ title:               Spyrous Blog
 tagline:             'Digitally Inspired'
 description:         'A blog about programming in the world of hardware'
 url:                 http://lanyon.getpoole.com
-baseurl:             ''
+#baseurl:             '/.'
 paginate:            5
 
 # About/contact
