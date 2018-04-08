@@ -1,18 +1,15 @@
 ---
+title: A Real Phenomenon That Brings Disaster
 layout: post
-title: Test2
 comments: true
-categories: [Vivado, FPGA, VHDL, AXI]
-
+tags: [Vivado, FPGA, VHDL, AXI]
 ---
 
 
-
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
-
+<div class="highlight">
 <pre>
-  <code class="VHDL">
-library ieee;
+  <code class="VHDL">library ieee;
 use ieee.std_logic_1164.all;
 
 entity RS_trigger is
@@ -48,9 +45,11 @@ begin
 
     Q  <= QT;
     nQ <= not QT;
-end architecture behaviour;
-  </code>
+end architecture behaviour;</code>
 </pre>
+</div>
+
+<div class="highlight">
 <pre>
   <code class="verilog">
 `ifndef _alu
@@ -107,7 +106,7 @@ endmodule
 `endif
   </code>
 </pre>
-
+</div>
 ### Built on Poole
 
 Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
