@@ -73,6 +73,7 @@ a {
 a strong {
   color: inherit;
 }
+
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
@@ -195,11 +196,11 @@ pre {
   padding: 0rem;
   font-size: 0.8rem;
   line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
+  /*white-space: pre;
+  white-space: pre-wrap;*/
   word-break: break-all;
   word-wrap: break-word;
-  /*background-color: #272822;*/
+  /*background-color: #272822;
 }
 pre code {
   padding: 0;
@@ -278,7 +279,7 @@ th {
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 

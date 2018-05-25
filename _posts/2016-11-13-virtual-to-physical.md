@@ -2,50 +2,69 @@
 title: A Real Phenomenon That Brings Disaster
 layout: post
 comments: true
-tags: [Vivado, FPGA, VHDL, AXI]
+tags: Vivado FPGA VHDL AXI
 ---
 
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+
 <div class="highlight">
 <pre>
-  <code class="VHDL">library ieee;
-use ieee.std_logic_1164.all;
-
-entity RS_trigger is
-    generic (T: Time := 0ns);
-    port ( R, S  : in  std_logic;
-           Q, nQ : out std_logic;
-           reset, clock : in  std_logic );
-end RS_trigger;
-
-architecture behaviour of RS_trigger is
-    signal QT: std_logic; -- Q(t)
-begin
-    process(clock, reset) is
-        subtype RS is std_logic_vector (1 downto 0);
+  <code class="VHDL">process (S_AXI_ACLK)
+    variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0); 
     begin
-        if reset = '0' then
-            QT <= '0';
+      if rising_edge(S_AXI_ACLK) then 
+        if S_AXI_ARESETN = '0' then
+          slv_reg0 <= (others => '0');
+          slv_reg1 <= (others => '0');
+          slv_reg2 <= (others => '0');
+          slv_reg3 <= (others => '0');
         else
-            if rising_edge(C) then
-                if not (R'stable(T) and S'stable(T)) then
-                    QT <= 'X';
-                else
-                    case RS'(R&S) is
-                        when "01" => QT <= '1';
-                        when "10" => QT <= '0';
-                        when "11" => QT <= 'X';
-                        when others => null;
-                    end case;
-                end if;
-            end if;
+          loc_addr := axi_awaddr(ADDR_LSB + OPT_MEM_ADDR_BITS downto ADDR_LSB);
+          if (slv_reg_wren = '1') then
+            case loc_addr is
+              when b"00" =>
+                for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
+                  if ( S_AXI_WSTRB(byte_index) = '1' ) then
+                    -- Respective byte enables are asserted as per write strobes                   
+                    -- slave registor 0
+                    slv_reg0(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
+                  end if;
+                end loop;
+              when b"01" =>
+                for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
+                  if ( S_AXI_WSTRB(byte_index) = '1' ) then
+                    -- Respective byte enables are asserted as per write strobes                   
+                    -- slave registor 1
+                    slv_reg1(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
+                  end if;
+                end loop;
+              when b"10" =>
+                for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
+                  if ( S_AXI_WSTRB(byte_index) = '1' ) then
+                    -- Respective byte enables are asserted as per write strobes                   
+                    -- slave registor 2
+                    slv_reg2(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
+                  end if;
+                end loop;
+              when b"11" =>
+                for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
+                  if ( S_AXI_WSTRB(byte_index) = '1' ) then
+                    -- Respective byte enables are asserted as per write strobes                   
+                    -- slave registor 3
+                    slv_reg3(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
+                  end if;
+                end loop;
+              when others =>
+                slv_reg0 <= slv_reg0;
+                slv_reg1 <= slv_reg1;
+                slv_reg2 <= slv_reg2;
+                slv_reg3 <= slv_reg3;
+            end case;
+          end if;
         end if;
-    end process;
-
-    Q  <= QT;
-    nQ <= not QT;
-end architecture behaviour;</code>
+      end if;                   
+    end process; </code>
 </pre>
 </div>
 

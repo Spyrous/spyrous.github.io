@@ -9,11 +9,15 @@ title: Archives
 {{ post.date | date_to_long_string }}
 <!-- Tags -->
 <ul class="tags">
+    
   {% for tag in post.title %}
+
     <li>
-      <a href="/tags#{{ tag }}" class="tag tag-archive-font">{{ tag }}</a>
+    	
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ tag }}</a>
     </li>
+
   {% endfor %}
 </ul>
-
+<br>
 {% endfor %}
