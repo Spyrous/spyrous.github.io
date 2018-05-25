@@ -59,54 +59,24 @@ html {
 }
 
 body {
-  color: #fff;
-  background-color: #002b36;
+  color: #515151;
+  background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #00ffff;
+  color: #268bd2;
   text-decoration: none;
 }
 a strong {
   color: inherit;
 }
-
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
   text-decoration: underline;
-}
-
-/* Circle image profile */
-#centre {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.user {
-  display: inline-block;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.one {
-  background-image: url('/images/profile.jpg');
-}
-
-.two {
-  background-image: url('http://placehold.it/150x150');
-}
-
-.three {
-  background-image: url('http://placehold.it/350x750');
 }
 
 /* Headings */
@@ -114,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #b58900;
+  color: #313131;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -140,7 +110,7 @@ p {
 }
 
 strong {
-  color: #b58900;
+  color: #303030;
 }
 
 
@@ -180,31 +150,31 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Ubuntu Mono, Monaco, "Courier New", monospace;
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .15em .2em;
+  padding: .25em .5em;
   font-size: 85%;
-  color: #ffffff;
-  background-color: #555555;
+  color: #bf616a;
+  background-color: #f9f9f9;
   border-radius: 3px;
 }
 pre {
-  /*display: block;*/
+  display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 0rem;
-  font-size: 0.8rem;
+  /*padding: 1rem;*/
+  font-size: .8rem;
   line-height: 1.4;
-  /*white-space: pre;
-  white-space: pre-wrap;*/
+  white-space: pre;
+  white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  /*background-color: #272822;
+  background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
-  font-size: 100%;
+  font-size: 60%;
   color: inherit;
   background-color: transparent;
 }
@@ -212,11 +182,10 @@ pre code {
 /* Pygments via Jekyll */
 .highlight {
   margin-bottom: 1rem;
-  border-radius: 0px;
+  border-radius: 4px;
 }
 .highlight pre {
-    margin-bottom: 0;
-    border-radius: 0px;
+  margin-bottom: 0;
 }
 
 /* Gist via GitHub Pages */
@@ -245,7 +214,7 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #FFCB35;
+  color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
@@ -279,7 +248,8 @@ th {
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #ffffff;
+  text-align: center;
+  background-color: #f9f9f9;
 }
 
 
@@ -458,4 +428,69 @@ a.pagination-item:hover {
     border-top-right-radius:    4px;
     border-bottom-right-radius: 4px;
   }
+}
+
+
+/*Tags*/
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.tags li {
+  float: left;
+}
+
+.tag {
+  font: 15px/1.5 'PT Sans', serif;
+  background: #767676;
+  border-radius: 3px 0 0 3px;
+  color: #FFFFFF;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tag-archive-font {
+  font-size: 13px;
+}
+
+.tag::before {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.tag::after {
+  background: #ffffff;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #767676;
+  border-top: 15px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag:hover {
+  background-color: #00ffff;
+  color: blue;
+  text-decoration: none;
+}
+
+.tag:hover::after {
+  border-left-color: #00ffff;
 }

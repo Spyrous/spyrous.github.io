@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-
   {% include head.html %}
 
+  <body>
 
-  <body class = "theme-base-09">
-     <link rel="stylesheet" href="../../../../../monokai-sublime.css"> 
-<script src="../../../../../highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
     {% include sidebar.html %}
-
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-	    <!--<img src="images/unspecified.jpeg" alt="Mountain View" align="left" style="width:70px;height:45px;">-->
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
@@ -26,7 +20,6 @@
 
       <div class="container content">
         {{ content }}
-       
       </div>
     </div>
 
@@ -49,7 +42,5 @@
         }, false);
       })(document);
     </script>
-    
   </body>
-
 </html>

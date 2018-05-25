@@ -5,12 +5,13 @@ permalink:           pretty
 
 
 # Setup
-title:               Spyrous Blog
-tagline:             'Digitally Inspired'
+title:               Spyros Chiotakis Blog
+tagline:             ''
 description:         'A blog about programming in the world of hardware'
 url:                 #http://lanyon.getpoole.com
-#baseurl:             '/.'
-paginate:            5
+paginate:            10
+highlighter:         null
+paginate_path: "page:num"
 
 # About/contact
 author:
