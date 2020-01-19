@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.spyroschiotakis.com/about/</loc>
-    <lastmod>2019-03-15T21:38:52+08:00</lastmod>
+    <loc>https://www.spyroschiotakis.com/posts/hello_page/</loc>
+    <lastmod>2020-01-19T23:02:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.spyroschiotakis.com/posts/</loc>
+    <lastmod>2020-01-19T23:02:23+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.spyroschiotakis.com/</loc>
+    <lastmod>2020-01-19T23:02:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.spyroschiotakis.com/about/</loc>
     <lastmod>2019-03-15T21:38:52+08:00</lastmod>
   </url>
   
@@ -24,11 +34,6 @@
   
   <url>
     <loc>https://www.spyroschiotakis.com/tags/image/</loc>
-    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/posts/</loc>
     <lastmod>2018-12-24T12:29:41+08:00</lastmod>
   </url>
   

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Spyros Chiotakis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Dec 2018 12:29:41 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2020 23:02:23 +0100</lastBuildDate>
     
 	<atom:link href="https://www.spyroschiotakis.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hello_page</title>
+      <link>https://www.spyroschiotakis.com/posts/hello_page/</link>
+      <pubDate>Sun, 19 Jan 2020 23:02:23 +0100</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/posts/hello_page/</guid>
+      <description>Testing a page</description>
+    </item>
     
     <item>
       <title>The &#34;figure&#34; Shortcode</title>
