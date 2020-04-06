@@ -6,10 +6,28 @@
     <description>Recent content on Spyros Chiotakis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jan 2020 23:02:23 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2019 21:38:52 +0800</lastBuildDate>
     
 	<atom:link href="https://www.spyroschiotakis.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Another_test</title>
+      <link>https://www.spyroschiotakis.com/posts/another_test/</link>
+      <pubDate>Mon, 06 Apr 2020 20:54:51 +0200</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/posts/another_test/</guid>
+      <description>Hello World</description>
+    </item>
+    
+    <item>
+      <title>Testing a new page</title>
+      <link>https://www.spyroschiotakis.com/posts/test_page/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/posts/test_page/</guid>
+      <description>Testing this page to see if it gets uploaded online</description>
+    </item>
     
     <item>
       <title>Hello_page</title>
@@ -26,7 +44,7 @@
       <pubDate>Fri, 15 Mar 2019 21:38:52 +0800</pubDate>
       
       <guid>https://www.spyroschiotakis.com/about/</guid>
-      <description>Hello everyone!My name is Spyros Chiotakis, and like you, I’m just a regular person trying to find my path through life. I studied Computer Engineering in Greece at the Hellenic Mediterranean University at Heraklion, Crete. Then I received my masters at the University of York in Digital Systems Engineering at the United Kingdom. Currently working in France at Elsys Design as a microelectronics engineer. The blog&#39;s purpose is to educate on topics such as, digital design, computer architecture, HDL languages (VHDL/Verilog), and if time allows, I will try to explain a few things about OS and compilers in correlation with computer architecture.</description>
+      <description>Hello everyone!My name is Spyros Chiotakis, and like you, I’m just a regular person trying to find my path through life. I studied Computer Engineering in Greece at the Hellenic Mediterranean University at Heraklion, Crete. Then I received my masters at the University of York in Digital Systems Engineering at the United Kingdom. Currently working in France at Elsys Design as a microelectronics engineer. The blog&amp;rsquo;s purpose is to educate on topics such as, digital design, computer architecture, HDL languages (VHDL/Verilog), and if time allows, I will try to explain a few things about OS and compilers in correlation with computer architecture.</description>
     </item>
     
     <item>
@@ -77,8 +95,8 @@ For example:
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.spyroschiotakis.com/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&#39;t cover using CSS to style your theme.
-We&#39;ll start with creating a new site with a very basic template.</description>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
@@ -124,7 +142,7 @@ Follow the following steps:
       <guid>https://www.spyroschiotakis.com/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&#39;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
