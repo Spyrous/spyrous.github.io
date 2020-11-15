@@ -2,13 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Spyros Chiotakis</title>
+    
+    
+    
     <link>https://www.spyroschiotakis.com/categories/</link>
     <description>Recent content in Categories on Spyros Chiotakis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 06 Apr 2020 20:54:51 +0200</lastBuildDate>
     
 	<atom:link href="https://www.spyroschiotakis.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>communication protocols</title>
+      <link>https://www.spyroschiotakis.com/categories/communication-protocols/</link>
+      <pubDate>Mon, 06 Apr 2020 20:54:51 +0200</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/categories/communication-protocols/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>cat</title>
+      <link>https://www.spyroschiotakis.com/categories/cat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/categories/cat/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
     
   </channel>
 </rss>

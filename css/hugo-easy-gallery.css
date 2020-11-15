@@ -121,7 +121,6 @@ figcaption styles
     color: #FFF;
     text-align: center;
     font-size: 75%; /* change this if you want bigger text */
-    text-align: center;
     background: rgba(0, 0, 0, 0.5);
     opacity: 1;
     cursor: pointer;
@@ -156,5 +155,6 @@ figcaption styles
 }
 figcaption p {
     margin: auto; /* override style in theme */
+    text-align: center;
 }
 

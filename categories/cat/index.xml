@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cat on Spyros Chiotakis</title>
+    
+    
+    
+    <link>https://www.spyroschiotakis.com/categories/cat/</link>
+    <description>Recent content in cat on Spyros Chiotakis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.spyroschiotakis.com/categories/cat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://www.spyroschiotakis.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hello everyone!My name is Spyros Chiotakis, and like you, I’m just a regular person trying to find my path through life. I studied Computer Engineering in Greece at the Hellenic Mediterranean University at Heraklion, Crete. Then I received my masters at the University of York in Digital Systems Engineering at the United Kingdom. Currently working in France at Elsys Design as a microelectronics engineer. The blog&amp;rsquo;s purpose is to educate on topics such as, digital design, computer architecture, HDL languages (VHDL/Verilog), and if time allows, I will try to explain a few things about OS and compilers in correlation with computer architecture.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

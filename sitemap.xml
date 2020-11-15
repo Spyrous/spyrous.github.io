@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.spyroschiotakis.com/categories/</loc>
+    <lastmod>2020-04-06T20:54:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.spyroschiotakis.com/categories/communication-protocols/</loc>
+    <lastmod>2020-04-06T20:54:51+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.spyroschiotakis.com/posts/another_test/</loc>
     <lastmod>2020-04-06T20:54:51+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.spyroschiotakis.com/posts/</loc>
+    <lastmod>2020-04-06T20:54:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.spyroschiotakis.com/</loc>
+    <lastmod>2020-04-06T20:54:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.spyroschiotakis.com/tags/</loc>
+    <lastmod>2020-04-06T20:54:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.spyroschiotakis.com/tags/uart/</loc>
     <lastmod>2020-04-06T20:54:51+02:00</lastmod>
   </url>
   
@@ -20,16 +45,6 @@
   <url>
     <loc>https://www.spyroschiotakis.com/posts/hello_page/</loc>
     <lastmod>2020-01-19T23:02:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/about/</loc>
-    <lastmod>2019-03-15T21:38:52+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/</loc>
-    <lastmod>2019-03-15T21:38:52+08:00</lastmod>
   </url>
   
   <url>
@@ -48,11 +63,6 @@
   </url>
   
   <url>
-    <loc>https://www.spyroschiotakis.com/tags/</loc>
-    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.spyroschiotakis.com/posts/the-figure-shortcode/</loc>
     <lastmod>2018-12-24T12:29:41+08:00</lastmod>
   </url>
@@ -63,68 +73,12 @@
   </url>
   
   <url>
-    <loc>https://www.spyroschiotakis.com/tags/typography/</loc>
-    <lastmod>2018-09-29T11:36:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/posts/typography/</loc>
-    <lastmod>2018-09-29T11:36:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.spyroschiotakis.com/about-hugo/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.spyroschiotakis.com/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.spyroschiotakis.com/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>https://www.spyroschiotakis.com/about/</loc>
   </url>
   
   <url>
@@ -132,7 +86,15 @@
   </url>
   
   <url>
-    <loc>https://www.spyroschiotakis.com/categories/</loc>
+    <loc>https://www.spyroschiotakis.com/tags/axi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.spyroschiotakis.com/categories/cat/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.spyroschiotakis.com/tags/vhdl/</loc>
   </url>
   
 </urlset>

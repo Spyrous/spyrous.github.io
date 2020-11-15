@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>communication protocols on Spyros Chiotakis</title>
+    
+    
+    
+    <link>https://www.spyroschiotakis.com/categories/communication-protocols/</link>
+    <description>Recent content in communication protocols on Spyros Chiotakis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Apr 2020 20:54:51 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.spyroschiotakis.com/categories/communication-protocols/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Describing the UART protocol</title>
+      <link>https://www.spyroschiotakis.com/posts/another_test/</link>
+      <pubDate>Mon, 06 Apr 2020 20:54:51 +0200</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/posts/another_test/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          UART (Universal Asynchronous Receiver Transmitter )
+This protocol is asynchronous in the sense that the clocks between the 2 communicating devices are not in sync. So how is the communication achieved? This is done by using the real-time as an agreement for the transfers. What I mean with this is that even if one device has a clock of 100MHz and the other of 500MHz then they agree that in specific time slots there will be new data.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
