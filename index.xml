@@ -21,17 +21,6 @@ The high-level design will be the one in the image below. We will have 2 IPs. On
 Tools Used The following tools where used to create this tutorial:</description>
     </item>
     
-    <item>
-      <title>About Me</title>
-      <link>https://www.spyroschiotakis.com/about/about_me/</link>
-      <pubDate>Mon, 08 Nov 2021 11:30:03 +0000</pubDate>
-      
-      <guid>https://www.spyroschiotakis.com/about/about_me/</guid>
-      <description>Hello everyone,
-My name is Spyros Chiotakis, and like you, I’m just a regular person trying to find my path through life. I studied Computer Engineering in Greece at the Hellenic Mediterranean University at Heraklion, Crete. Then I received my masters at the University of York in Digital Systems Engineering at the United Kingdom. Currently working in France at GreenWaves Technologies as a microelectronics engineer.
-The blog’s purpose is to educate on topics such as, digital design, computer architecture, HDL languages (VHDL/Verilog), and if time allows, I will try to explain a few things about OS and compilers in correlation with computer architecture.</description>
-    </item>
-    
     
   </channel>
 </rss>
