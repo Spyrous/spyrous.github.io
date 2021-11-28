@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Spyrous Blog</title>
+    <link>https://www.spyroschiotakis.com/tags/</link>
+    <description>Recent content in Tags on Spyrous Blog</description>
+    <image>
+      <url>https://www.spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Nov 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://www.spyroschiotakis.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AXI</title>
+      <link>https://www.spyroschiotakis.com/tags/axi/</link>
+      <pubDate>Mon, 15 Nov 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/tags/axi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FPGA</title>
+      <link>https://www.spyroschiotakis.com/tags/fpga/</link>
+      <pubDate>Mon, 15 Nov 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/tags/fpga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vitis</title>
+      <link>https://www.spyroschiotakis.com/tags/vitis/</link>
+      <pubDate>Mon, 15 Nov 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/tags/vitis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vivado</title>
+      <link>https://www.spyroschiotakis.com/tags/vivado/</link>
+      <pubDate>Mon, 15 Nov 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/tags/vivado/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xilinx</title>
+      <link>https://www.spyroschiotakis.com/tags/xilinx/</link>
+      <pubDate>Mon, 15 Nov 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/tags/xilinx/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

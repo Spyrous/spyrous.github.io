@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vivado on Spyrous Blog</title>
+    <link>https://www.spyroschiotakis.com/tags/vivado/</link>
+    <description>Recent content in Vivado on Spyrous Blog</description>
+    <image>
+      <url>https://www.spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Nov 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://www.spyroschiotakis.com/tags/vivado/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wrapping an IP with an AXI interface in Vivado</title>
+      <link>https://www.spyroschiotakis.com/posts/wrapping_ip_with_axi/</link>
+      <pubDate>Mon, 15 Nov 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://www.spyroschiotakis.com/posts/wrapping_ip_with_axi/</guid>
+      <description>Introduction In this tutorial we will design a simple adder IP and use Xilinx Vivado AXI wrapper generator to allow our ARM cores to read/write to our IP through the AXI interface.
+The high-level design will be the one in the image below. We will have 2 IPs. One is our custom made IP wrapped with AXI interface and an AXI BRAM controller just for demonstration purposes.
+Tools Used The following tools where used to create this tutorial:</description>
+    </item>
+    
+  </channel>
+</rss>
