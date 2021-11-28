@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Abouts on Spyrous Blog</title>
-    <link>https://spyroschiotakis.com/about/</link>
+    <link>https://www.spyroschiotakis.com/about/</link>
     <description>Recent content in Abouts on Spyrous Blog</description>
     <image>
-      <url>https://spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 08 Nov 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://spyroschiotakis.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Nov 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://www.spyroschiotakis.com/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>https://spyroschiotakis.com/about/another_page/</link>
+      <link>https://www.spyroschiotakis.com/about/about_me/</link>
       <pubDate>Mon, 08 Nov 2021 11:30:03 +0000</pubDate>
       
-      <guid>https://spyroschiotakis.com/about/another_page/</guid>
+      <guid>https://www.spyroschiotakis.com/about/about_me/</guid>
       <description>Hello everyone,
 My name is Spyros Chiotakis, and like you, I’m just a regular person trying to find my path through life. I studied Computer Engineering in Greece at the Hellenic Mediterranean University at Heraklion, Crete. Then I received my masters at the University of York in Digital Systems Engineering at the United Kingdom. Currently working in France at GreenWaves Technologies as a microelectronics engineer.
 The blog’s purpose is to educate on topics such as, digital design, computer architecture, HDL languages (VHDL/Verilog), and if time allows, I will try to explain a few things about OS and compilers in correlation with computer architecture.</description>
