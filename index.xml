@@ -5,22 +5,31 @@
     <link>https://www.spyroschiotakis.com/</link>
     <description>Recent content on Spyrous Blog</description>
     <image>
+      <title>Spyrous Blog</title>
       <url>https://www.spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.spyroschiotakis.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Nov 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://www.spyroschiotakis.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.121.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Nov 2021 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://www.spyroschiotakis.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wrapping an IP with an AXI interface in Vivado</title>
       <link>https://www.spyroschiotakis.com/posts/wrapping_ip_with_axi/</link>
       <pubDate>Mon, 15 Nov 2021 11:30:03 +0000</pubDate>
-      
       <guid>https://www.spyroschiotakis.com/posts/wrapping_ip_with_axi/</guid>
       <description>Introduction In this tutorial we will design a simple adder IP and use Xilinx Vivado AXI wrapper generator to allow our ARM cores to read/write to our IP through the AXI interface.
 The high-level design will be the one in the image below. We will have 2 IPs. One is our custom made IP wrapped with AXI interface and an AXI BRAM controller just for demonstration purposes.
 Tools Used The following tools where used to create this tutorial:</description>
     </item>
-    
-    
+    <item>
+      <title>About Me</title>
+      <link>https://www.spyroschiotakis.com/about_me/</link>
+      <pubDate>Mon, 08 Nov 2021 11:30:03 +0000</pubDate>
+      <guid>https://www.spyroschiotakis.com/about_me/</guid>
+      <description>Hello everyone,
+My name is Spyros Chiotakis, and like you, I’m just a regular person trying to find my path through life. I studied Computer Engineering in Greece at the Hellenic Mediterranean University at Heraklion, Crete. Then I received my masters at the University of York in Digital Systems Engineering at the United Kingdom. Currently working in France at GreenWaves Technologies as a microelectronics engineer.
+The blog’s purpose is to educate on topics such as, digital design, computer architecture, HDL languages (VHDL/Verilog), and if time allows, I will try to explain a few things about OS and compilers in correlation with computer architecture.</description>
+    </item>
   </channel>
 </rss>
